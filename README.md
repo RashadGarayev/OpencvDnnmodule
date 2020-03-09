@@ -61,13 +61,13 @@ The architecture of SSD consists of 3 main components:
 ![Conv](test/example2.png)
 
 
-[](Source: https://arxiv.org/pdf/1512.02325.pdf)
+(Source: https://arxiv.org/pdf/1512.02325.pdf)
 
 
 ## Googlenet
 
 
-![Conv](test/googlenet1.png)
+![Conv](test/google1.png)
 
 On this chapter you will learn about the googleNet (Winning architecture on ImageNet 2014) and it's inception layers.
 
@@ -89,4 +89,4 @@ The most straightforward way to improve performance on deep learning is to use m
 
 ![Conv](test/googlenet3.png)
 
-[](Source : https://www.researchgate.net/figure/GoogLeNet-22-Convolutional-Neural-Network-architecture-featuring-inception-layers_fig1_328880566)
+(Source : https://www.researchgate.net/figure/GoogLeNet-22-Convolutional-Neural-Network-architecture-featuring-inception-layers_fig1_328880566)

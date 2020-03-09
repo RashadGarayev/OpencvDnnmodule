@@ -13,10 +13,10 @@
 
 ## Usage
 
-### MobilenetSdd (Real-time)
+#### MobilenetSdd (Real-time)
 `$ python mobilenet.py`
 
-### googlenet image classification (Real-time)
+#### googlenet image classification (Real-time)
 
 `$ python googlenet.py`
 

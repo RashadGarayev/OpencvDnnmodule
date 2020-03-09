@@ -20,7 +20,9 @@
 
 `$ python googlenet.py`
 
+-------------------------------------------------------------------------------------------------------------------------
 
+# Introduction
 ## Mobilenet SSD  (Single-Shot MultiBox Detector)
 
 Object detection refers to the task of identifying various objects within an image and drawing a bounding box around each of them. A few examples are shown below to illustrate this better:

@@ -2,10 +2,8 @@
 
 ## Python packages
 * numpy
-* tensorflow_gpu
-* OpenCv
-* PyQt5
-* Matplotlib
+* opencv-contrib-python
+
 ### Installation
 
 * For Caffe model [Caffemodel](http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel)

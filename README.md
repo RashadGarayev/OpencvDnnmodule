@@ -6,7 +6,12 @@
 * OpenCv
 * PyQt5
 * Matplotlib
+### Installation
 
+* For Caffe model [Caffemodel](http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel)
+* For Mobilenet [Mobilenet](https://drive.google.com/open?id=0B3gersZ2cHIxRm5PMWRoTkdHdHc)
+
+ add models to models folder
 
 ## Usage
 

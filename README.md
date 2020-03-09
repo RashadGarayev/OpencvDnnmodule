@@ -37,7 +37,7 @@ A major problem with the first version of YOLO was that its accuracy was very lo
 
 
 
-1. Understanding Default Boxes
+* Understanding Default Boxes
 
 The key idea underlying SSD is the concept of default boxes (or anchors). Don’t worry if you have a lot of questions by the end of this section. This section is just meant to give you a high-level picture and a flavour for the things to come.
 

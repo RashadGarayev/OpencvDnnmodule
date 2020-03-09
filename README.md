@@ -56,4 +56,32 @@ The architecture of SSD consists of 3 main components:
 ![Conv](test/example2.png)
 
 
-[] (Source: https://arxiv.org/pdf/1512.02325.pdf)
+[](Source: https://arxiv.org/pdf/1512.02325.pdf)
+
+
+## Googlenet
+
+
+![Conv](test/googlenet1.png)
+
+On this chapter you will learn about the googleNet (Winning architecture on ImageNet 2014) and it's inception layers.
+
+
+![Conv](test/googlenet2.png)
+
+googleNet has 22 layer, and almost 12x less parameters (So faster and less then Alexnet and much more accurate.
+
+Their idea was to make a model that also could be used on a smart-phone (Keep calculation budget around 1.5 billion multiply-adds on prediction).
+
+## Inception Layer
+---------------------------------------------------------------------------------------------------------------------------
+
+The idea of the inception layer is to cover a bigger area, but also keep a fine resolution for small information on the images. So the idea is to convolve in parallel different sizes from the most accurate detailing (1x1) to a bigger one (5x5).
+
+The idea is that a series of gabor filters with different sizes, will handle better multiple objects scales. With the advantage that all filters on the inception layer are learnable.
+
+The most straightforward way to improve performance on deep learning is to use more layers and more data, googleNet use 9 inception modules. The problem is that more parameters also means that your model is more prone to overfit. So to avoid a parameter explosion on the inception layers, all bottleneck techniques are exploited.
+
+![Conv](test/googlenet3.png)
+
+[](Source : https://www.researchgate.net/figure/GoogLeNet-22-Convolutional-Neural-Network-architecture-featuring-inception-layers_fig1_328880566)
